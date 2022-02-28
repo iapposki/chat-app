@@ -1,0 +1,67 @@
+:root{
+    --primary-color: black;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: sans-serif;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.width-100-percent{
+    width: 100%;
+}
+
+.height-100-percent{
+    height: 100%;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-content: center;
+}
+
+.move-right{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.gap{
+    gap: 10px;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.sticky{
+    top: 0;
+    position: fixed;
+    background-color: white;
+}
+
+.grid{
+    display: grid;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
