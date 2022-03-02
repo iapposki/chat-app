@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script/script.js" async defer></script>
     <link rel="stylesheet" href="./common.css">
     <link rel="stylesheet" href="./index.css">
     <title>My Chat App</title>
 </head>
-<body class="body flex flex-center">
-    
-    <header class="header flex flex-center height-100-percent">My Chat App</header>
-
-    <div class="display height-100-percent"></div>
-
-    <div class="display-text height-100-percent">
+<body>
+    <div class="body flex flex-center">
+        <header class="header flex flex-center height-100-percent">THE CHAT APP</header>
+        
+        <div class="chat-display height-100-percent">
+        </div>
+        
+        <div class="display-input-area height-100-percent grid">
+            <div>
+                <p id="typing" style="visibility: hidden; position: absolute; top: 58%; left: 23%;" >typing</p>
+                <label id="sendMessage" for="messageInput"></label>
+                <input id="messageInput" type="text" />
+                <button id="btn-snd">SEND</button>
+            </div>
+            <div >
+                <span class="online"><span id="user">Enter username</span></span>
+                <button id="btn-login">LOGIN</button>
+            </div>
+        </div>
     </div>
-
-    <script src="./script/index.js" type="module"></script>
 
 </body>
 </html>
