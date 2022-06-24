@@ -1,6 +1,6 @@
 
 document.querySelector("#btn-login").addEventListener("click", onClickFunction)
-var user = "anonymous"
+var user = "anonymous user"
 
 async function onClickFunction() {
     user = prompt("Enter your User Name : ");
